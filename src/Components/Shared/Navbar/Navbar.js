@@ -1,7 +1,6 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-// import { Link } from 'react-router-dom';
 
 
 const Navbar = () => {
@@ -22,20 +21,10 @@ const Navbar = () => {
                         <li><Link to="/service">Services</Link></li>
                         <li><Link to="/project">Projects</Link></li>
                         <li><Link to="/career">Career</Link></li>
-                        {/* <li tabIndex={0}>
-                        <a className="justify-between">
-                            Service
-                            <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"/></svg>
-                        </a>
-                        <ul className="p-2">
-                            <li><a>Web Dev</a></li>
-                            <li><a>Soft Dev</a></li>
-                        </ul>
-                        </li> */}
-                        
                     </ul>
                     </div>
-                    <a className="btn btn-ghost normal-case text-xl">Ridoy Soft</a>
+                    <Link className="btn btn-ghost normal-case text-xl" to="/">Ridoy Soft</Link>
+                    
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal p-0">
@@ -45,19 +34,7 @@ const Navbar = () => {
                     <li><Link to="/blog">Blog</Link></li>
                     <li><Link to="/service">Services</Link></li>
                     <li><Link to="/project">Projects</Link></li>
-                    <li><Link to="/career">Career</Link></li>
-                        {/* Drop down here  */}
-                    {/* <li tabIndex={0}>
-                        <a>
-                        Service
-                        <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/></svg>
-                        </a>
-                        <ul className="p-2">
-                        <li><a>Web Dev</a></li>
-                        <li><a>Soft Dev</a></li>
-                        </ul>
-                    </li> */}
-                    
+                    <li><Link to="/career">Career</Link></li>                    
                     </ul>
                 </div>
                 <div className="navbar-end">

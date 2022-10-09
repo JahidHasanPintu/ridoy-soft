@@ -1,9 +1,8 @@
-import logo from './logo.svg';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Navbar from './Components/Shared/Navbar/Navbar';
 import Footer from './Components/Shared/Footer/Footer';
 import Home from './Components/Home/Home';
-import { Route, Routes } from 'react-router-dom';
 import About from './Components/About/About';
 import Services from './Components/Services/Services';
 import Blog from './Components/Blog/Blog';
@@ -14,7 +13,7 @@ import Contact from './Components/Contact/Contact';
 
 function App() {
   return (
-    <div className="">
+    <div >
 
      <Navbar></Navbar>
      <Routes>
