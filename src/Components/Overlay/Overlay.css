@@ -1,0 +1,20 @@
+.clear-left{
+    clear:left;
+  }
+  
+  .hero-image::after {
+    display: block;
+    position: absolute;
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0) 0, rgb(76, 73, 73) 100%);
+    bottom: 0;
+    left:0;
+    right:0;
+    height: 100%;
+    width: 100%;
+    content: '';
+  }
+
+.back-img{
+    background-image: url(https://images.unsplash.com/photo-1457131760772-7017c6180f05?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+}
+ 
