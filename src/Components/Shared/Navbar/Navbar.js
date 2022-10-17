@@ -19,11 +19,14 @@ const Navbar = () => {
                         <li><Link to="/about">About</Link></li>
                         <li><Link to="/blog">Blog</Link></li>
                         <li><Link to="/service">Services</Link></li>
-                        <li><Link to="/project">Projects</Link></li>
+                        {/* <li><Link to="/project">Projects</Link></li> */}
+                        <li><Link to="/products">Products & Platforms</Link></li>
+
+                        <li><Link to="/discover">Discover GHB</Link></li>
                         <li><Link to="/career">Career</Link></li>
                     </ul>
                     </div>
-                    <Link className="btn btn-ghost normal-case text-xl" to="/">Ridoy Soft</Link>
+                    <Link className="btn btn-ghost normal-case text-xl" to="/">GHB Knowledge Institute</Link>
                     
                 </div>
                 <div className="navbar-center hidden lg:flex">
@@ -33,12 +36,15 @@ const Navbar = () => {
                     <li><Link to="/about">About</Link></li>
                     <li><Link to="/blog">Blog</Link></li>
                     <li><Link to="/service">Services</Link></li>
-                    <li><Link to="/project">Projects</Link></li>
+                    {/* <li><Link to="/project">Projects</Link></li> */}
+                    <li><Link to="/products">Products & Platforms</Link></li>
+
+                    <li><Link to="/discover">Discover GHB</Link></li>
                     <li><Link to="/career">Career</Link></li>                    
                     </ul>
                 </div>
                 <div className="navbar-end">
-                <Link className="btn" to="/contact">Contact</Link>
+                <Link className="btn hidden md:inline-flex" to="/contact">Contact</Link>
                     
                 </div>
                 </div>
